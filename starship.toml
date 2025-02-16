@@ -123,18 +123,18 @@ style = "bold yellow"
 
 # Git status module
 [git_status]
-format = '$all_status$ahead_behind '
-conflicted = "[ ](red) "
-ahead = "[󰳡 ](green)"
-behind = "[󰳛 ](red)"
-diverged = " [ ](peach)"
-up_to_date = "[ ](green)"
-untracked = " [ ](peach)"
-stashed = " [ ](yellow]"
-modified = " [󱅄 ](yellow)"
-staged = '[ ($count\)](green)'
-renamed = "[󰂮 ](peach)"
-deleted = "[ ](red)"
+format = '$all_status $ahead_behind '
+conflicted = "[ Conflicted](red) "
+ahead = "[󰳡 Ahead](green)"
+behind = "[󰳛 Behind](red)"
+diverged = " [ Diverged](peach)"
+up_to_date = "[ Up to date](green)"
+untracked = " [ Untracked](peach)"
+stashed = " [ Stashed](yellow]"
+modified = " [󱅄 Modified](yellow)"
+staged = '[ Staged ($count\)](green)'
+renamed = "[󰂮 Renamed](peach)"
+deleted = "[ Deleted](red)"
 
 # Command duration
 [cmd_duration]
