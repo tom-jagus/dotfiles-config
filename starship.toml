@@ -105,7 +105,7 @@ home_symbol = "~"
 
 # Git branch module
 [git_branch]
-format = '[$symbol$branch(:$remote_branch)]($style)'
+format = '[$symbol$branch(:$remote_branch)]($style) '
 style = "bold maroon"
 truncation_symbol = ".."
 symbol = " "
