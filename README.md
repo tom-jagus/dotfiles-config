@@ -42,17 +42,17 @@ Current setup will work with Windows PowerShell only.
 #### KOMOREBI_CONFIG_HOME
 
 ```shell
-[System.Environment]::SetEnvironmentVariable('KOMOREBI_CONFIG_HOME', $env:USERPROFILE+'\.config\komorebi')
+[System.Environment]::SetEnvironmentVariable('KOMOREBI_CONFIG_HOME', $env:USERPROFILE+'\.config\komorebi', 'user')
 ```
 
 #### WHKD_CONFIG_HOME
 
 ```shell
-[System.Environment]::SetEnvironmentVariable('WHKD_CONFIG_HOME', $env:USERPROFILE+'\.config\whkd\whkdrc')
+[System.Environment]::SetEnvironmentVariable('WHKD_CONFIG_HOME', $env:USERPROFILE+'\.config\whkd', 'user')
 ```
 
 #### STARSHIP_CONFIG
 
 ```shell
-[System.Environment]::SetEnvironmentVariable('STARSHIP_CONFIG', $env:USERPROFILE+'\.config\starship\starship.toml')
+[System.Environment]::SetEnvironmentVariable('STARSHIP_CONFIG', $env:USERPROFILE+'\.config\starship\starship.toml', 'user')
 ```
