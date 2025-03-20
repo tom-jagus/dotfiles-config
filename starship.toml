@@ -14,7 +14,7 @@ $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
-$fill\
+$fill \
 $c\
 $cmake\
 $cobol\
@@ -132,7 +132,7 @@ up_to_date = "[ Up to date](green)"
 untracked = " [ Untracked](peach)"
 stashed = " [ Stashed](yellow]"
 modified = " [󱅄 Modified](yellow)"
-staged = '[ Staged ($count\)](green)'
+staged = '[ Staged ($count)](green)'
 renamed = "[󰂮 Renamed](peach)"
 deleted = "[ Deleted](red)"
 
