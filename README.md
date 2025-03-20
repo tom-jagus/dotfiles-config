@@ -18,7 +18,7 @@ Current setup will work with Windows PowerShell only.
 #### Data directory
 
 ```shell
-[System.Environment]::SetEnvironmentVariable('XDG_DATA_HOME', $env:USERPROFILE'\.local\share', 'user')
+[System.Environment]::SetEnvironmentVariable('XDG_DATA_HOME', $env:USERPROFILE+'\.local\share', 'user')
 ```
 
 #### State directory
@@ -43,6 +43,12 @@ Current setup will work with Windows PowerShell only.
 
 ```shell
 [System.Environment]::SetEnvironmentVariable('KOMOREBI_CONFIG_HOME', $env:USERPROFILE+'\.config\komorebi')
+```
+
+#### WHKD_CONFIG_HOME
+
+```shell
+[System.Environment]::SetEnvironmentVariable('WHKD_CONFIG_HOME', $env:USERPROFILE+'\.config\whkd\whkdrc')
 ```
 
 #### STARSHIP_CONFIG
