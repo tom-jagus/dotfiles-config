@@ -7,7 +7,7 @@ foo.*
 *.log
 data
 .neoconf.json
-LICENSE/
+LICENSE
 stylua.toml
 lazy-lock.json
 lazyvim.json
